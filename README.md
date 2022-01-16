@@ -1,7 +1,4 @@
 # AWIN_homework
-
-## 聲明
-此份作業是 AWINLAB 新生作業，由林璟翔完成。內容包含機器學習（Machine Learning）、深度學習（Deep Learning）、超啟發式演算法（Meta-heuristic Algorithm）三大題
 ## 機器學習（Machine Learning）
 請至 [Kaggle](https://www.kaggle.com/iabhishekofficial/mobile-price-classification
 ) 下載Mobile Price 資料集，並用機器學習的方法進行「分類」。

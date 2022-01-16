@@ -44,4 +44,4 @@ if __name__ == "__main__":
     for i in range(0, len(weights)):
         ans = ans + profits[i] * OSOF[i]
 
-    print("My ans:", table[len(weights)][capacity], ", OSOF:", ans)
+    print("My ans:", table[len(weights)][capacity], ", 最佳解:", ans)

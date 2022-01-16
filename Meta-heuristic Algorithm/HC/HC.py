@@ -31,12 +31,17 @@ if __name__ == "__main__":
     print("OSOF     ", OSOF)
 # 以上在讀檔
 
-    def random_pike(cur_ans_list):  #隨機取一個位置01互換
+    def random_pick(cur_ans_list):  #隨機取一個位置01互換
         i = random.randint(0, len(cur_ans_list) - 1)
-        if cur_ans_list[i] == 0:
+        if cur_ans_list[i] == 0:  #如果不在背包內，就放入
             cur_ans_list[i] = 1
-        else:
-            cur_ans_list[i] = 0
+        else:  #如果在背包內，隨機挑一個不再背包內的東西與之互換
+            while True:  
+                j = random.randint(0, len(cur_ans_list) - 1)
+                if cur_ans_list[j] == 0:
+                    cur_ans_list[i] = 0
+                    cur_ans_list[j] = 1
+                    break
         return cur_ans_list
 
     def cal_profit(temp_list):  #計算profit
@@ -68,7 +73,7 @@ if __name__ == "__main__":
 
     for i in range(iteration_time+1):
         # print("第", i, "次疊代：")
-        ran = random_pike(ans_list.copy())
+        ran = random_pick(ans_list.copy())
         if cal_profit(ran) > cal_profit(ans_list) and cal_weights(ran) < capacity:  #如果profit增加且weights小於capacity就更新資料
             ans_list = ran
 

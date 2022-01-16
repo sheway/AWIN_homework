@@ -34,3 +34,10 @@ if __name__ == '__main__':
     plt.show()
 
 
+    print("-------------------以上資料為訓練資料-------------------")
+
+    test_data = pd.read_csv('test.csv')  #匯入測試資料集
+    test_data = test_data[test_data.columns[1:]]
+    test_predict = clf.predict(test_data)  #預測test_predict
+    print("預測結果：")
+    print(test_predict)

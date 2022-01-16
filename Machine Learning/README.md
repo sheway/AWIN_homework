@@ -1,5 +1,5 @@
 # 機械學習
-
+注：各模型使用 train_test_split 來分割資料時所使用的 random_state 皆為 1。
 ## 名詞解釋
 - Accuracy(準確率)：預測正確的sample占所有sample的比例，表示了一個分類器的區分能力。
 - precision(精確率)：預測值為True情況下真實值仍為True所佔的比例。
@@ -9,4 +9,7 @@
  
 ## 各模型比較
 - 最佳準確率
+    - SVM：0.9725
+    - KNN：0.9225
     - DT：0.8475
+    - RF：0.86

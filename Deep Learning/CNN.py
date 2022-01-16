@@ -46,7 +46,7 @@ y_train = np.array(y_train)
 
 #隨機選取 10 張照片
 X_train, y_train = shuffle(X_train, y_train)
-X_train, data, y_train, datalabel= train_test_split(X_train, y_train, test_size=0.231642, random_state=1)
+X_train, data, y_train, datalabel= train_test_split(X_train, y_train, test_size=0.00231642, random_state=1)
 #最後輸出圖表時，若有一個 label 的照片沒被選到會 error
 
 print("X_train shape after shuffle:", X_train.shape)

@@ -1,4 +1,4 @@
-# AWIN_homework
+# AWINLIB_homework
 ## 機器學習（Machine Learning）
 請至 [Kaggle](https://www.kaggle.com/iabhishekofficial/mobile-price-classification
 ) 下載Mobile Price 資料集，並用機器學習的方法進行「分類」。

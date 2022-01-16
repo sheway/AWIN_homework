@@ -10,6 +10,10 @@
 ## 各模型比較
 - 最佳準確率
     - SVM：0.9725
+    - ![](https://i.imgur.com/E8n5UTr.png)
     - KNN：0.9225
+    - ![](https://i.imgur.com/MX9LM3h.png)
     - DT：0.8475
+    - ![](https://i.imgur.com/1dxJD2Q.png)
     - RF：0.86
+    - ![](https://i.imgur.com/r90ul31.png)

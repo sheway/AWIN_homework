@@ -1,7 +1,7 @@
 # K-近鄰演算法(K-nearest neighbors, KNN)
 
 ## 訓練模型
-藉由訓練集資料取出 80% 當作訓練資料，從 neighbors 為 3 到 ，parameter 為 2 到 4，準確率如下：
+藉由訓練集資料取出 80% 當作訓練資料，從 neighbors 為 3~6 ，parameter 為 2~4，準確率如下：
 - KNN neighbors 為 3，parameter 為 2，Accuracy 為 0.905。
 - KNN neighbors 為 3，parameter 為 3，Accuracy 為 0.9025。
 - KNN neighbors 為 3，parameter 為 4，Accuracy 為 0.9025。
